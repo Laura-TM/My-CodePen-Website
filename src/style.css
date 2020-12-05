@@ -1,0 +1,1019 @@
+header {
+  background-color: rgba(255, 255, 255, 0.99);
+  box-shadow: 0 0.1875rem 0.1875rem #a7a7a7;
+  display: flex;
+  flex-direction: row;
+  left: 0;
+  max-height: 3.125rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+header img {
+  left: 0.3125rem;
+  position: relative;
+  width: 12.5rem;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  width: 90%;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+.nav-bar a {
+  color: #000080;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.425rem;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  color: #351fff;
+  cursor: pointer;
+}
+
+main {
+  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+  font-family: "Roboto";
+  font-size: 1.75rem;
+  padding-top: 1.25rem;
+  text-align: center;
+  width: 100%;
+}
+
+.choose {
+  border-radius: 0.4125rem;
+  font-family: "Roboto", regular;
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+  padding-left: 1.625rem;
+  padding-right: 1.625rem;
+  border-left-color: black;
+  border-top-color: black;
+}
+
+.signup {
+  background-color: #7bd3f7;
+  margin-right: 3rem;
+}
+
+.signin {
+  background-color: #ffc200;
+  margin-left: 3rem;
+}
+
+.choose:hover {
+  color: #ffffff;
+  filter: brightness(0.9);
+  text-transform: uppercase;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.material-icons {
+  color: green;
+  float: left;
+  height: 6rem;
+  margin-right: 1rem;
+}
+
+.features {
+  font-family: "Roboto";
+}
+
+h2,
+p {
+  margin: 0.385rem 0;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+  float: right;
+  margin: 0.3125rem 0 0 0.3125rem;
+  width: 67%;
+}
+
+aside {
+  align-items: center;
+  background: #6dd6d1;
+  border-radius: 0.625rem;
+  height: 2.25rem;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.noselect {
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+
+aside a {
+  background: #6dd6d1;
+  border: none;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.625rem 1.5625rem #57aba7, 0 -0.625rem 1.5625rem #a6fffa,
+    inset 0 -0.3125rem 0.625rem #57aba7, inset 0 0.3125rem 0.625rem #a6fffa;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 1.6rem;
+  height: 2.25rem;
+  text-align: center;
+  text-decoration: underline;
+  transition: 500ms;
+  width: 100%;
+}
+
+aside a:hover {
+  animation: hueRotation 2s linear infinite;
+  border: 0.125rem solid #6dd6d1;
+}
+
+@keyframes hueRotation {
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+aside a:focus {
+  outline: none;
+}
+
+.contact {
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  font-family: "Roboto";
+  font-size: 1.25rem;
+  margin-top: 0.35rem;
+  text-align: center;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.single-column {
+  flex: 1;
+}
+
+h3 {
+  margin: 0.5rem;
+}
+
+.social-media {
+  margin: 0.09rem 0 0.09rem 0;
+  padding: 0.05rem;
+}
+
+.fa {
+  border-radius: 35%;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  width: 2rem;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+}
+
+.fa-twitter {
+  background: #55acee;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+}
+
+.fa-instagram {
+  background: #a5678e;
+}
+
+.fa-github {
+  background: #000000;
+}
+
+.fa-slack {
+  background: #fd5da8;
+}
+
+.fa-trello {
+  background: #337eff;
+}
+
+.fa-youtube {
+  background: #ff0000;
+}
+
+.fa-skype {
+  background: #00aff0;
+}
+
+.donate {
+  border: 0.0625rem solid #021a40;
+  border-radius: 1rem;
+  height: 6.5rem;
+  padding: 0.0625rem;
+  width: 8.5rem;
+}
+
+.responsive {
+  height: auto;
+  max-width: 100%;
+}
+
+.payment {
+  margin: 0.75rem;
+}
+
+.fa-cc-paypal {
+  color: navy;
+  margin: 0;
+  padding: 0;
+  width: 3.75rem;
+}
+
+.double-column {
+  flex: 2;
+}
+
+.send-message {
+  padding: 0.2rem 0.425rem 0.4rem 0.425rem;
+}
+
+.name {
+  border-radius: 0.3125rem;
+  font-family: Roboto;
+  margin-bottom: 0.3rem;
+  position: relative;
+  width: 90%;
+  z-index: 1;
+}
+
+.subject {
+  border-radius: 0.3125rem;
+  font-family: Roboto;
+  margin-bottom: 0.3rem;
+  position: relative;
+  width: 90%;
+  z-index: 2;
+}
+
+.email {
+  border-radius: 0.3125rem;
+  font-family: Roboto;
+  margin-bottom: 0.3rem;
+  position: relative;
+  width: 90%;
+  z-index: 3;
+}
+
+.message {
+  border-radius: 0.3125rem;
+  font-family: Roboto;
+  margin-bottom: 0.3rem;
+  position: relative;
+  resize: vertical;
+  width: 90.25%;
+  z-index: 4;
+}
+
+.submit {
+  background-color: #315200;
+  border-color: #315200;
+  border-radius: 0.3125rem;
+  color: #ffffff;
+  cursor: default;
+  font-family: Roboto;
+  padding: 0.2rem;
+  width: 91%;
+}
+
+input[type="submit"]:hover {
+  background-color: #52cc00;
+  color: #193300;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #ddd;
+  height: 1.5rem;
+  margin-top: 0.3125rem;
+}
+
+footer span a {
+  color: #000080;
+  font-family: "Roboto";
+  padding: 0 0.3125rem 0 1.25rem;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #000080;
+  float: right;
+  font-family: "Roboto";
+  margin-right: 0.3125rem;
+}
+
+@media only all and (min-width: 200px) and (max-width: 246px) {
+  header img {
+    width: 140px;
+  }
+
+  ul {
+    margin-top: 1px;
+    padding-right: 2px;
+    text-align: right;
+    width: 100%;
+  }
+
+  .nav-bar a {
+    font-size: 6px;
+    padding-right: 2px;
+  }
+}
+
+@media only all and (min-width: 200px) and (max-width: 350px) {
+  header {
+    height: 35px;
+    padding-bottom: 3px;
+  }
+
+  main {
+    font-size: 10px;
+    padding-top: 30px;
+  }
+
+  .choose {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .signup {
+    margin-right: 10px;
+  }
+
+  .signin {
+    margin-left: 10px;
+  }
+
+  iframe {
+    align-self: center;
+    float: left;
+    height: auto;
+    margin: 0;
+    width: 100%;
+  }
+
+  .material-icons {
+    height: 40px;
+    margin-left: 15px;
+  }
+
+  .features {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .row {
+    display: block;
+    width: 100%;
+  }
+
+  .fa {
+    height: 20px;
+    padding: 6px;
+    width: 20px;
+  }
+
+  .social-media {
+    display: inline-block;
+    font-size: 15px;
+  }
+
+  footer {
+    height: 20px;
+  }
+
+  .fa-cc-paypal {
+    padding: 0;
+    width: 99px;
+  }
+}
+
+@media only all and (min-width: 200px) and (max-width: 440px) {
+  footer span a {
+    float: left;
+    font-size: 10px;
+    padding: 3px;
+  }
+}
+
+@media only all and (min-width: 200px) and (max-width: 520px) {
+  h2,
+  p {
+    margin: 3px 0;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+}
+
+@media only all and (min-width: 247px) and (max-width: 289px) {
+  header img {
+    width: 150px;
+  }
+
+  ul {
+    margin-top: 1px;
+    padding-right: 2px;
+    text-align: right;
+    width: 90%;
+  }
+
+  .nav-bar a {
+    font-size: 8px;
+    padding-right: 1px;
+  }
+}
+
+@media only all and (min-width: 290px) and (max-width: 317px) {
+  header img {
+    width: 160px;
+  }
+
+  ul {
+    margin-top: 2px;
+    padding-right: 3px;
+    text-align: right;
+  }
+
+  .nav-bar a {
+    font-size: 9px;
+    padding-right: 8px;
+  }
+
+  .fa-cc-paypal {
+    padding: 0;
+    width: 98px;
+  }
+}
+
+@media only all and (min-width: 318px) and (max-width: 347px) {
+  header img {
+    width: 165px;
+  }
+
+  ul {
+    margin-top: 3px;
+    padding-right: 10px;
+    text-align: right;
+    width: 100%;
+  }
+
+  .nav-bar a {
+    font-size: 11px;
+    padding-right: 9px;
+  }
+
+  .fa-cc-paypal {
+    padding: 0;
+    width: 97px;
+  }
+}
+
+@media only all and (min-width: 348px) and (max-width: 394px) {
+  header img {
+    width: 170px;
+  }
+
+  ul {
+    margin-top: 0px;
+    padding-right: 10px;
+    text-align: right;
+  }
+
+  .nav-bar a {
+    font-size: 12px;
+  }
+}
+
+@media only all and (min-width: 351px) and (max-width: 520px) {
+  .fa {
+    height: 18px;
+    padding: 6px;
+    width: 19px;
+  }
+
+  .social-media {
+    display: inline-block;
+    font-size: 20px;
+  }
+}
+
+@media only all and (min-width: 351px) and (max-width: 525px) {
+  .material-icons {
+    height: 50px;
+    margin-left: 25px;
+  }
+
+  .features {
+    margin-left: 85px;
+    margin-right: 15px;
+  }
+}
+
+@media only all and (min-width: 351px) and (max-width: 850px) {
+  header {
+    height: 35px;
+    padding-bottom: 5px;
+  }
+
+  main {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+
+  .choose {
+    font-size: 17px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .signup {
+    margin-right: 17px;
+  }
+
+  .signin {
+    margin-left: 17px;
+  }
+
+  iframe {
+    align-self: center;
+    float: left;
+    height: auto;
+    margin: 0;
+    width: 100%;
+  }
+
+  .row {
+    display: block;
+    width: 100%;
+  }
+
+  .fa {
+    height: 28px;
+    padding: 15px;
+    width: 28px;
+  }
+
+  .fa-cc-paypal {
+    padding: 0;
+    width: 66px;
+  }
+}
+
+@media only all and (min-width: 395px) and (max-width: 420px) {
+  ul {
+    margin-right: 5px;
+    margin-top: 0px;
+    text-align: right;
+    width: 70%;
+  }
+
+  .nav-bar a {
+    font-size: 12px;
+    padding-right: 3px;
+  }
+}
+
+@media only all and (min-width: 421px) and (max-width: 473px) {
+  ul {
+    margin-right: 5px;
+    margin-top: 3px;
+    text-align: right;
+    width: 70%;
+  }
+
+  .nav-bar a {
+    font-size: 12px;
+    padding-right: 6px;
+  }
+}
+
+@media only all and (min-width: 474px) and (max-width: 525px) {
+  ul {
+    margin-right: 5px;
+    margin-top: 3px;
+    text-align: right;
+    width: 70%;
+  }
+
+  .nav-bar a {
+    font-size: 14px;
+    padding-right: 6px;
+  }
+}
+
+@media only all and (min-width: 521px) and (max-width: 626px) {
+  h2,
+  p {
+    margin: 5px 0;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .social-media {
+    display: inline-block;
+    font-size: 23px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media only all and (min-width: 526px) and (max-width: 569px) {
+  ul {
+    margin-right: 5px;
+    margin-top: 10px;
+    text-align: right;
+    width: 95%;
+  }
+
+  .nav-bar a {
+    font-size: 14px;
+    padding-right: 6px;
+  }
+}
+
+@media only all and (min-width: 526px) and (max-width: 625px) {
+  .material-icons {
+    height: 50px;
+    margin-left: 30px;
+  }
+
+  .features {
+    margin-left: 100px;
+    margin-right: 10px;
+  }
+}
+
+@media only all and (min-width: 570px) and (max-width: 620px) {
+  ul {
+    margin-right: 5px;
+    margin-top: 9px;
+    text-align: right;
+    width: 90%;
+  }
+
+  .nav-bar a {
+    font-size: 14px;
+    padding-right: 6px;
+  }
+}
+
+@media only all and (min-width: 621px) and (max-width: 720px) {
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+    margin-top: 8px;
+    width: 95%;
+  }
+
+  .nav-bar a {
+    font-size: 17px;
+  }
+}
+
+@media only all and (min-width: 626px) and (max-width: 850px) {
+  .material-icons {
+    height: 50px;
+    margin-left: 50px;
+  }
+
+  .features {
+    margin-left: 140px;
+  }
+
+  h2,
+  p {
+    margin: 5px 0;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .social-media {
+    display: inline-block;
+    font-size: 25px;
+    padding-bottom: ;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media only all and (min-width: 721px) and (max-width: 850px) {
+  ul {
+    margin-top: 8px;
+  }
+}
+
+@media only all and (min-width: 851px) and (max-width: 1030px) {
+  iframe {
+    height: 420px;
+    margin-bottom: 4px;
+  }
+
+  .material-icons {
+    height: 45px;
+    margin-left: 20px;
+  }
+
+  .features {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  .social-media {
+    display: inline-block;
+    font-size: 24px;
+    padding-top: 4px;
+  }
+
+  .fa {
+    height: 27px;
+    padding: 11px;
+    width: 27px;
+  }
+
+  .donate {
+    height: 100px;
+    margin-top: 10px;
+    width: 100px;
+  }
+
+  .fa-cc-paypal {
+    padding: 0;
+    width: 63px;
+  }
+}
+
+@media only all and (min-width: 1031px) and (max-width: 1299px) {
+  iframe {
+    height: 410px;
+    margin-bottom: 4px;
+  }
+
+  .material-icons {
+    height: 55px;
+    margin-left: 20px;
+  }
+
+  .features {
+    padding-left: 90px;
+    padding-right: 20px;
+  }
+
+  .social-media {
+    padding-top: 5px;
+  }
+
+  .donate {
+    height: 100px;
+    margin-top: 10px;
+    width: 100px;
+  }
+}
+
+@media only all and (min-width: 1300px) and (max-width: 1500px) {
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+    margin-top: 10px;
+    width: 90%;
+  }
+
+  .nav-bar a {
+    font-size: 30px;
+  }
+
+  iframe {
+    height: 360px;
+    margin-bottom: 4px;
+  }
+
+  .material-icons {
+    height: 87px;
+    margin-left: 20px;
+  }
+
+  .features {
+    padding-left: 30px;
+    max-width: 100%;
+  }
+
+  h2,
+  p {
+    margin: 11px 0;
+    max-width: 600px;
+  }
+
+  .social-media {
+    font-size: 24px;
+    padding-top: 10px;
+  }
+
+  .fa {
+    height: 28px;
+    padding: 8px;
+    width: 28px;
+  }
+
+  .donate {
+    height: 100px;
+    margin-top: 10px;
+    width: 100px;
+  }
+
+  .fa-cc-paypal {
+    padding: 0;
+    width: 64px;
+  }
+}
+
+@media only all and (min-width: 1501px) and (max-width: 1999px) {
+  iframe {
+    margin-bottom: 6px;
+    height: 530px;
+  }
+
+  .fa {
+    height: 30px;
+    margin-top: 10px;
+    padding: 12px;
+    width: 30px;
+  }
+
+  .social-media {
+    display: inline-block;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  .fa-cc-paypal {
+    padding: 0;
+    width: 66px;
+  }
+}
+
+@media only all and (min-width: 1501px) and (max-width: 3000px) {
+  header {
+    height: 105px;
+    padding-bottom: 20px;
+  }
+
+  header img {
+    width: 280px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+    margin-top: 10px;
+    width: 90%;
+  }
+
+  .nav-bar a {
+    font-size: 35px;
+  }
+
+  main {
+    font-size: 40px;
+    padding-top: 30px;
+  }
+
+  .choose {
+    font-size: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .signup {
+    margin-right: 25px;
+  }
+
+  .signin {
+    margin-left: 25px;
+  }
+
+  .material-icons {
+    height: 60px;
+    margin-left: 25px;
+  }
+
+  h2,
+  p {
+    margin: 9px 0;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  .features {
+    padding-left: 90px;
+    padding-right: 30px;
+  }
+
+  .donate {
+    height: 90px;
+    margin-top: 10px;
+    width: 100px;
+  }
+}
+
+@media only all and (min-width: 2000px) and (max-width: 3000px) {
+  iframe {
+    height: 460px;
+    margin-bottom: 6px;
+  }
+
+  .fa {
+    height: 35px;
+    padding: 15px;
+    width: 35px;
+  }
+
+  .social-media {
+    display: inline-block;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  .fa-cc-paypal {
+    padding: 0;
+    width: 66px;
+  }
+}
